@@ -27,6 +27,13 @@ body {
   font-size: $font-size;
 }
 
+#user {
+  margin-left: 4px;
+  color: $black;
+  font-family: $font-stack;
+  font-size: $font-size;
+}
+
 .navbar-light .navbar-toggler {
   border-style: none;
   color: $black;
