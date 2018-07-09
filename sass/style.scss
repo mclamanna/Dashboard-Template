@@ -21,10 +21,24 @@ $font-size: 1rem;
 
 // STYLES
 
+html {
+  height: 100%;
+}
+
 body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
   color: $black;
   font-family: $font-stack;
   font-size: $font-size;
+}
+
+h5{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
 }
 
 #user {
@@ -51,6 +65,18 @@ body {
     font-family: $font-stack2;
     font-size: 2rem;
     background-color: $ivblue;
+}
+
+.coltemp{
+  height: 4rem;
+  background-color: #BDC6D0;
+  border-color: #000000;
+  border-style: solid;
+  border-width: .2rem;
+}
+
+.buttontemp{
+  margin-top: 1rem;
 }
 
 .footer {
